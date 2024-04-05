@@ -7,8 +7,8 @@ public class Main {
 
         System.out.println("Кол-во начисленных миль за купленный билет:");
         short price = 26100;
-        byte rublesformile = 20;
-        int miles = price / rublesformile;
+        byte rublesForMile = 20;
+        int miles = price / rublesForMile;
 
         System.out.println("Стоимость билета = " + price);
         System.out.println("Кол-во полученных миль = " + miles);
